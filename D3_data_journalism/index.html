@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body style="background-image: url(assets/images/newsreel.webp); 
+  background-repeat: no-repeat; 
+  background-size: 100% 100%; 
+  background-position: 0% 95%;">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1 style="color:white">D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row" style="color:white">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2>Correlations Discovered Between Health Risks and Age, Income</h2>
+          <p>In recent decades, healthcare has become a major concern for the U.S. population, due to high costs and longer
+            life expectancies. A study was commissioned to ascertain the links between variables associated with healthcare
+            and financial well-being. Values were obtained from all 50 states.
+          </p>
+
+          <p>The results of the study showed that certain factors correlated well, while others didn't. The following showed
+            correlations, indicating that further studies might be worthwhile.
+            <br>
+            <br>
+            -Population without Healthcare (%) vs Poverty (%) (Positive Correlation)<br><br>
+            -Smokers (%) vs Median Household Income (%) (Negative Correlation)<br><br>
+            -Smokers (%) vs Poverty (%) (Negative Correlation)<br><br>
+            -Obesity (%) vs Median Household Income (%) (Negative Correlation)<br><br>
+          </p>
+
+          <p>The data would suggest that the way to improve health outcomes (as indicated by the healthcare, smoker, & obesity
+            (%s)) is to improve the financial well-being of a state's populace. However, further studies are needed to strengthen
+            this conclusion.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2016</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
